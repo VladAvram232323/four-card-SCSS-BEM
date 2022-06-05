@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    line-height: 1.4;
+
+    &__title {
+        color: var(--grayish-blue);
+        font-weight: 200;
+        margin-bottom: 1rem;
+
+        &--bold {
+            font-weight: 600;
+            color: var(--very-dark-blue);
+        }
+    }
+
+    &__desc {
+        font-weight: 400;
+        color: var(--grayish-blue);
+    }
+}
